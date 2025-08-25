@@ -1,0 +1,109 @@
+:root {
+  --main-bg-color: brown;
+  font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: black; /* altera a cor de todos os links das páginas */
+}
+
+/* ==================================================================HEADER=========================================================================================== */
+
+header {
+  padding: 5vw 10vw 5vw 10vw;
+  & nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & ul {
+      display: flex;
+      & li {
+        margin: 0px 10px 0px 10px;
+        position: relative;
+
+        & ul {
+          display: none;
+        }
+      }
+      & li:hover ul {
+        display: block;
+        position: absolute;
+      }
+    }
+  }
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header nav ul li.atual a {
+  color: #FB2E86;
+}
+
+header a {
+  color: #0D0E43;
+}
+
+/*============================================================================== NBANNER ==========================================================*/
+
+section.banner {
+  display: flex;
+  padding: 5vw 10vw 5vw 10vw;
+  background-color: #F2F0FF;
+}
+
+section.banner h3 {
+  color: #FB2E86;
+  font-size: large;
+  font-weight: bold;
+}
+
+section.banner h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 5px 0;
+}
+
+section.banner p {
+  color: #8a8fb9;
+  margin: 15px 0;
+}
+
+section.banner p button {
+  background-color: #FB2E86;
+  color: white;
+  padding: 15px 35px 15px 35px;
+  margin: 4vw 0;
+  border-radius: 2px;
+}
+
+section.banner div.textos {
+  padding-right: 4vw;
+}
+
+/* ================================================================PROODUTOS================================================================== */
+
+section.produtos {
+  padding: 5vw 10vw 5vw 10vw;
+}
+
+section.produtos h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1A0B5B;
+}
+
+section.produtos ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+section.produtos ul li {
+  width: 30%;
+}
