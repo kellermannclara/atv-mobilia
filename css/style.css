@@ -107,3 +107,75 @@ section.produtos ul {
 section.produtos ul li {
   width: 30%;
 }
+
+section.produtos ul li p {
+  background-color: #F7F7F7;
+  text-align: center;
+}
+
+section.produtos ul li h3 {
+  color: #151875;
+  font-size: 1rem;
+  margin: 17px 0 30px 0 ;
+}
+
+section.produtos ul li h3 span {
+  border-bottom: 1px solid #eeeffb;
+}
+
+/* =========================================================================CONVITE=============================================================== */
+
+section.convite {
+  padding: 5vw 10vw 5vw 10vw;
+  background: url(../src/images/back-section-update.png);
+  text-align: center;
+}
+
+section.convite h2 {
+  font-size: 3rem;
+  color: #151875;
+  font-weight: bold;
+}
+
+section.convite p button {
+  background-color: #FB2E86;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  border-radius: 3px;
+  margin: 2vw 0;
+}
+
+/* ===================================================FOOTER ===================================================================================== */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 10vw 5vw 10vw;
+  background-color: #EEEFFB;
+}
+
+footer h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1vw 0;
+}
+
+footer p {
+  color: #8A8FB9;
+  margin: 5px 0;
+}
+
+footer h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 1vw 0;
+}
+
+footer div nav ul li a {
+  color: #8A8FB9;
+  margin: 5px 0;
+}
+
+footer nav ul li {
+  margin: 20px 0;
+}
